@@ -9,7 +9,9 @@
 #define STEPPER_PIN_STEP	2
 #define STEPPER_PIN_DIR	3
 
+// change this variable to adjust the stepper motor speed. It is in microSeconds time unit - higher values will make the motor spin slower.
 const int stepPeriod = 300;
+// adjust this variable to fit it to your lift height
 const int liftHeightInSteps = 10000;
 // Global variables and defines
 
