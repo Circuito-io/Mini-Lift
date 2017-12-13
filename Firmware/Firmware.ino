@@ -6,7 +6,7 @@
 // Pin Definitions
 #define BTHC05_PIN_RXD	10
 #define BTHC05_PIN_TXD	11
-#define STEPPER_PIN_STEP	2
+#define STEPPER_PIN_STEP 2
 #define STEPPER_PIN_DIR	3
 
 // change this variable to adjust the stepper motor speed. It is in microSeconds time unit - higher values will make the motor spin slower.
